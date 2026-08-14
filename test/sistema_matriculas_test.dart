@@ -2,7 +2,9 @@ import 'package:sistema_matriculas/matricula.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  group('Testes de validação de matrícula', () {
+    test('CT001 - deve rejeitar nome vazio', (){
+      
+    });
   });
 }
