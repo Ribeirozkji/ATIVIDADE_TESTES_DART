@@ -85,9 +85,31 @@
     3. Limites: Valores limítrofes exatos.
 
 ## CRITÉRIOS DE ENTRADA
-
-    Código estruturado, pacote `test` instalado, ambiente Darte comilando sem erros e plano de teste elaborado.
+* Código estruturado, pacote `test` instalado, ambiente Dart compilando sem erros e plano de teste elaborado.
 
 ## CRITÉRIOS DE SAÍDA
- 
-    100% dos testes executados, defeitos críticos corrigi
+* 100% dos testes executados, defeitos críticos corrigidos e retestados, e documentação finalizada na pasta `documentos/`.
+
+## CRITÉRIOS DE SUSPENSÃO
+* Falhas críticas no ambiente/SDK ou erros generalizados no código que impeçam a execução isolada dos testes.
+
+## CRITÉRIOS DE RETOMADA
+* Resolução completa dos problemas de ambiente e estabilização do código-fonte.
+
+## RISCOS
+1. Divergências de arredondamento de centavos.
+2. Incompatibilidade de versões do Dart entre os membros.
+3. Atraso na correção de defeitos encontrados.
+4. Ambiguidade nas regras de acúmulo de descontos.
+
+## RESPONSABILIDADES
+* **Analista de Testes:** Análise de requisitos e planejamento.
+* **Executor:** Execução de testes manuais e automatizados.
+* **Desenvolvedor:** Correção de bugs no código.
+* **Evidências:** Coleta de prints e saídas de terminal.
+* **Documentação:** Organização e entrega dos relatórios.
+
+## ENTREGÁVEIS
+* `lib/matricula.dart`, `bin/sistema_matriculas.dart`, `test/matricula_test.dart` e os arquivos Markdown (`plano_teste.md`, `casos_teste.md`, `registro_execucao.md`, `relatorio_defeitos.md`, `matriz_rastreabilidade.md`, `relatorio_final.md` e a pasta `evidencias/`).
+
+    Código estruturado, pacote `test` instalado, ambiente Darte comilando sem erros e plano de teste elaborado.
